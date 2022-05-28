@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<h1 align="center" style="font-style:italic;">Admin Dashboard</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Download
 
-## Available Scripts
+Using Command :
 
-In the project directory, you can run:
+```sh
+git clone https://github.com/princu09/admin-dashboard-reactjs.git
+```
 
-### `yarn start`
+Direct Zip :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-black?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/princu09/admin-dashboard-reactjs/archive/refs/heads/Main.zip)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Documentation
 
-### `yarn test`
+**Syncfusion React UI Components**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://ej2.syncfusion.com/react/documentation/introduction/
 
-### `yarn build`
+```
+Note : How to Freely Use SyncFusion
+Follow Some Steps: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Step 1 : Install SyncFusion From Official Website 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Step 2 : Add CDN in App.css 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This Link ===> @import url("https://cdn.syncfusion.com/ej2/material.css");
 
-### `yarn eject`
+Step 3 : Open File ===> Project Folder > public > index.html
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Step 4 : Copy this Code and Add to <Head> Tag.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+=========================
+<style>
+  #js-licensing {
+    visibility: hidden;
+  }
+</style>
+=========================
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Step 5 : You are Complate !! Enjoy..🎉
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+**Tailwindcss**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://tailwindcss.com/docs/guides/create-react-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Screenshot :**
 
-### Code Splitting
+* Dark Mode
+![Screenshot 1](./ss/1.png)
+![Screenshot 2](./ss/2.png)
+![Screenshot 3](./ss/3.png)
+![Screenshot 4](./ss/4.png)
+![Screenshot 5](./ss/5.png)
+![Screenshot 6](./ss/6.png)
+![Screenshot 7](./ss/7.png)
+![Screenshot 8](./ss/8.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Multi Colors Also Available
+![Screenshot 9](./ss/9.png)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* White Mode 
+![Screenshot 10](./ss/10.png)
