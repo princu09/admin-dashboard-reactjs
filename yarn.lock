@@ -1898,6 +1898,22 @@
     "@syncfusion/ej2-popups" "~19.4.53"
     "@syncfusion/ej2-splitbuttons" "~19.4.52"
 
+"@syncfusion/ej2-filemanager@~20.1.57":
+  version "20.1.57"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-filemanager/-/ej2-filemanager-20.1.57.tgz#0f0b67d23d1da006444b06c029e49a75382a3aea"
+  integrity sha512-l22axVqTReWh97xFn0//VAd4E2F7p9HI2+8FWDUp6CFDX/qB0/qWBZkFzoqGw4jVHg6G/ze44gIAVBexyQ9HaQ==
+  dependencies:
+    "@syncfusion/ej2-base" "~20.1.56"
+    "@syncfusion/ej2-buttons" "~20.1.55"
+    "@syncfusion/ej2-data" "~20.1.55"
+    "@syncfusion/ej2-grids" "~20.1.57"
+    "@syncfusion/ej2-inputs" "~20.1.55"
+    "@syncfusion/ej2-layouts" "~20.1.55"
+    "@syncfusion/ej2-lists" "~20.1.55"
+    "@syncfusion/ej2-navigations" "~20.1.57"
+    "@syncfusion/ej2-popups" "~20.1.57"
+    "@syncfusion/ej2-splitbuttons" "~20.1.57"
+
 "@syncfusion/ej2-gantt@~19.4.56":
   version "19.4.56"
   resolved "https://registry.npmjs.org/@syncfusion/ej2-gantt/-/ej2-gantt-19.4.56.tgz"
@@ -1917,7 +1933,7 @@
     "@syncfusion/ej2-richtexteditor" "~19.4.56"
     "@syncfusion/ej2-treegrid" "~19.4.56"
 
-"@syncfusion/ej2-grids@20.1.57":
+"@syncfusion/ej2-grids@20.1.57", "@syncfusion/ej2-grids@~20.1.57":
   version "20.1.57"
   resolved "https://registry.yarnpkg.com/@syncfusion/ej2-grids/-/ej2-grids-20.1.57.tgz#74fc02571fb6adc684e9a64bdba6a702f861b7bd"
   integrity sha512-VL11ONvo9hrYNXVCF0BnyhMEZR+fInQJM8WfgWyvum1SSld87IUA2migWFEbIHI9SgIP5s3N9YFUCy7DdjwAFg==
@@ -1996,17 +2012,7 @@
     "@syncfusion/ej2-richtexteditor" "~19.4.52"
     "@syncfusion/ej2-splitbuttons" "~19.4.52"
 
-"@syncfusion/ej2-inputs@19.4.52", "@syncfusion/ej2-inputs@~19.4.52":
-  version "19.4.52"
-  resolved "https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-19.4.52.tgz"
-  integrity sha512-141wT1W8DbXM50A1RVHOtruCyPncF6CDOU8RdhtFx9ydbXvbSXH+2i+vKr8UK23qC07z8+YB8/wV7ZAQ5vI0Bw==
-  dependencies:
-    "@syncfusion/ej2-base" "~19.4.52"
-    "@syncfusion/ej2-buttons" "~19.4.52"
-    "@syncfusion/ej2-popups" "~19.4.52"
-    "@syncfusion/ej2-splitbuttons" "~19.4.52"
-
-"@syncfusion/ej2-inputs@~20.1.55":
+"@syncfusion/ej2-inputs@20.1.55", "@syncfusion/ej2-inputs@~20.1.55":
   version "20.1.55"
   resolved "https://registry.yarnpkg.com/@syncfusion/ej2-inputs/-/ej2-inputs-20.1.55.tgz#d18b84cade733633397f637012fb715736b695e0"
   integrity sha512-ymT0favfwcNohI+xF/hlt/tIOFv9hHgLd6MHxAQc8AhKCSW85X+WNilIz0I2wXt0qck6hrVVjxyksQpPH4Ia1g==
@@ -2015,6 +2021,16 @@
     "@syncfusion/ej2-buttons" "~20.1.55"
     "@syncfusion/ej2-popups" "~20.1.55"
     "@syncfusion/ej2-splitbuttons" "~20.1.55"
+
+"@syncfusion/ej2-inputs@~19.4.52":
+  version "19.4.52"
+  resolved "https://registry.npmjs.org/@syncfusion/ej2-inputs/-/ej2-inputs-19.4.52.tgz"
+  integrity sha512-141wT1W8DbXM50A1RVHOtruCyPncF6CDOU8RdhtFx9ydbXvbSXH+2i+vKr8UK23qC07z8+YB8/wV7ZAQ5vI0Bw==
+  dependencies:
+    "@syncfusion/ej2-base" "~19.4.52"
+    "@syncfusion/ej2-buttons" "~19.4.52"
+    "@syncfusion/ej2-popups" "~19.4.52"
+    "@syncfusion/ej2-splitbuttons" "~19.4.52"
 
 "@syncfusion/ej2-kanban@20.1.55":
   version "20.1.55"
@@ -2238,7 +2254,7 @@
     "@syncfusion/ej2-inputs" "~19.4.52"
     "@syncfusion/ej2-splitbuttons" "~19.4.52"
 
-"@syncfusion/ej2-react-base@~19.4.52", "@syncfusion/ej2-react-base@~19.4.56":
+"@syncfusion/ej2-react-base@~19.4.56":
   version "19.4.56"
   resolved "https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-19.4.56.tgz"
   integrity sha512-mi1OKYgGfOe2MKcnMBuioYbdJea4IXCbFvUxG1WEZI5n3t6CxKH4ZWum7IgBO1kcTkaCdhs8Aj0ACFXUFmOwOQ==
@@ -2297,14 +2313,14 @@
     "@syncfusion/ej2-grids" "20.1.57"
     "@syncfusion/ej2-react-base" "~20.1.57"
 
-"@syncfusion/ej2-react-inputs@^19.4.52":
-  version "19.4.52"
-  resolved "https://registry.npmjs.org/@syncfusion/ej2-react-inputs/-/ej2-react-inputs-19.4.52.tgz"
-  integrity sha512-ib+YUSOwEobysJPn/vDjhvDs3S8QvMEZtywVgPhAtiPoK8UZtM5YOl9Ejpp422wCFA5U2vXzBeGoK6Wamm9S9Q==
+"@syncfusion/ej2-react-inputs@^20.1.55":
+  version "20.1.55"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-react-inputs/-/ej2-react-inputs-20.1.55.tgz#5f040e75f25b21cd6ac70b7708b36a12b7c95d22"
+  integrity sha512-OaGih0LACe/fgKz0ivJkyrMVOSLWkahFIp1UcgdDC3r4IR7mzmephFCMSvNWGfddl7pOglhAMDeLyBxqjSz92Q==
   dependencies:
-    "@syncfusion/ej2-base" "~19.4.52"
-    "@syncfusion/ej2-inputs" "19.4.52"
-    "@syncfusion/ej2-react-base" "~19.4.52"
+    "@syncfusion/ej2-base" "~20.1.55"
+    "@syncfusion/ej2-inputs" "20.1.55"
+    "@syncfusion/ej2-react-base" "~20.1.55"
 
 "@syncfusion/ej2-react-kanban@^20.1.55":
   version "20.1.55"
@@ -2324,14 +2340,14 @@
     "@syncfusion/ej2-popups" "20.1.57"
     "@syncfusion/ej2-react-base" "~20.1.57"
 
-"@syncfusion/ej2-react-richtexteditor@^19.4.50":
-  version "19.4.56"
-  resolved "https://registry.npmjs.org/@syncfusion/ej2-react-richtexteditor/-/ej2-react-richtexteditor-19.4.56.tgz"
-  integrity sha512-tK4lV/bi/3dhO8YGm161IDjvLccPD+m03ZoB2DL0STZeQVP5JdZckvTfZMiWqnkksB+WfLPROPCtrdBhs6nSTA==
+"@syncfusion/ej2-react-richtexteditor@^20.1.57":
+  version "20.1.57"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-react-richtexteditor/-/ej2-react-richtexteditor-20.1.57.tgz#99234b20d1e29580d5cfc147952caaec08088f1a"
+  integrity sha512-iSmGGOksnESkXTz8qxg4pMwzDcBOO8SavRAJCeW9OJYjEI3zEvzW0zwFC21ZeevSxoEcRv1fGg6HEWAMDFBXMQ==
   dependencies:
-    "@syncfusion/ej2-base" "~19.4.52"
-    "@syncfusion/ej2-react-base" "~19.4.56"
-    "@syncfusion/ej2-richtexteditor" "19.4.56"
+    "@syncfusion/ej2-base" "~20.1.56"
+    "@syncfusion/ej2-react-base" "~20.1.57"
+    "@syncfusion/ej2-richtexteditor" "20.1.57"
 
 "@syncfusion/ej2-react-schedule@^20.1.57":
   version "20.1.57"
@@ -2342,7 +2358,20 @@
     "@syncfusion/ej2-react-base" "~20.1.57"
     "@syncfusion/ej2-schedule" "20.1.57"
 
-"@syncfusion/ej2-richtexteditor@19.4.56", "@syncfusion/ej2-richtexteditor@~19.4.52", "@syncfusion/ej2-richtexteditor@~19.4.56":
+"@syncfusion/ej2-richtexteditor@20.1.57", "@syncfusion/ej2-richtexteditor@^20.1.57":
+  version "20.1.57"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-richtexteditor/-/ej2-richtexteditor-20.1.57.tgz#24fa4a4beaa2305d96cfba2be27ca0fd3346bc8b"
+  integrity sha512-OqBUJmNgnZgMjMg1tL6r16ANgFccf6Yn2AEYY1ZPirfEzoEltE0z9KAdPpBGWrtDcDrMgoatKJgv6FOmCo29eA==
+  dependencies:
+    "@syncfusion/ej2-base" "~20.1.56"
+    "@syncfusion/ej2-buttons" "~20.1.55"
+    "@syncfusion/ej2-filemanager" "~20.1.57"
+    "@syncfusion/ej2-inputs" "~20.1.55"
+    "@syncfusion/ej2-navigations" "~20.1.57"
+    "@syncfusion/ej2-popups" "~20.1.57"
+    "@syncfusion/ej2-splitbuttons" "~20.1.57"
+
+"@syncfusion/ej2-richtexteditor@~19.4.52", "@syncfusion/ej2-richtexteditor@~19.4.56":
   version "19.4.56"
   resolved "https://registry.npmjs.org/@syncfusion/ej2-richtexteditor/-/ej2-richtexteditor-19.4.56.tgz"
   integrity sha512-lKGoAT6Dkdo/LN++84aO8n4F/4MN1xV3NqNAbAI2R13Y8YAPlodVtoRiSAXUjX0p2pGmEu/atR94K3E0/MLbQQ==

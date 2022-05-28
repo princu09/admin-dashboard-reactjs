@@ -12,9 +12,10 @@ import {
 import { useStateContext } from "../contexts/ContextProvider";
 
 const Ecommerce = () => {
+  const { currentColor } = useStateContext();
   return (
     <>
-      <div className="mt-12">
+      <div className="mt-12 mx-3">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-60 rounded-xl w-full p-8 pt-9 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div className="">
@@ -25,7 +26,7 @@ const Ecommerce = () => {
           <div className="mt-6">
             <Button
               color="white"
-              bgColor="darkorange"
+              bgColor={currentColor}
               text="Download"
               borderRadius="10px"
               size="md"
@@ -60,8 +61,8 @@ const Ecommerce = () => {
             ))}
           </div>
         </div>
-        <div className="flex gap-10 flex-wrap justify-center">
-          <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-full">
+        <div className="w-full flex gap-10 flex-wrap justify-center">
+          <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg my-3 p-4 rounded-2xl md:w-full">
             <div className="flex justify-between">
               <p className="font-semibold text-xl">Revenue Updates</p>
               <div className="flex items-center gap-4">
@@ -79,8 +80,8 @@ const Ecommerce = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-10 flex flex-wrap justify-around">
-              <div className="border-r-1 border-color m-4 pr-40">
+            <div className="mt-10 flex flex-wrap justify-center">
+              <div className="border-r-1 border-color m-4 pr-20">
                 <div>
                   <p>
                     <span className="text-3xl font-semibold">₹ 92,541</span>
@@ -98,19 +99,19 @@ const Ecommerce = () => {
                 </div>
                 <div className="mt-5">
                   <SparkLine
-                    currentColor="orange"
+                    currentColor={currentColor}
                     id="line-sparkLine"
                     type="Line"
                     height="80px"
                     width="250px"
                     data={SparklineAreaData}
-                    color="orange"
+                    color={currentColor}
                   />
                 </div>
                 <div className="mt-10">
                   <Button
                     color="white"
-                    bgColor="darkorange"
+                    bgColor={currentColor}
                     text="Download Report"
                     borderRadius="10px"
                   />
