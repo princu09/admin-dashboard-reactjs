@@ -1,11 +1,9 @@
 import React from "react";
-import { HiOutlineCurrencyRupee } from "react-icons/hi";
 import { GoPrimitiveDot } from "react-icons/go";
 
-import { Stacked, Pie, Button, SparkLine } from "../components";
+import { Stacked, Button, SparkLine } from "../components";
 import {
   earningData,
-  ecomPieChartData,
   SparklineAreaData,
 } from "../data/dummy";
 
